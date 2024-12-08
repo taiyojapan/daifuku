@@ -50,13 +50,16 @@
   }
 
   .comment {
-    margin-top: 30px;
+    margin-top: 40px;
   }
   .comment h3 {
     font-size: 2.0rem;
   }
 
   .footer {
-    margin-top: 20px;
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%)
   }
 }
